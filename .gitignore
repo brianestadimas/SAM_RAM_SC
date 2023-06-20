@@ -3,3 +3,10 @@ data/train2/
 pretrained/*
 models/*
 .vector_cache/*
+
+# Allow empty directories to be committed
+!data/train/.gitkeep
+!data/train2/.gitkeep
+!pretrained/.gitkeep
+!models/.gitkeep
+!.vector_cache/.gitkeep
