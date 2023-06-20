@@ -1,0 +1,5 @@
+data/train/
+data/train2/
+pretrained/*
+models/*
+.vector_cache/*
